@@ -1,0 +1,45 @@
+header {
+    background-color: darkgoldenrod;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+nav {
+    background-color: blueviolet;
+    color: cornsilk;
+}
+
+article {
+    padding: 0.5rem;
+    background-color: gray;
+}
+
+section {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    background-color: lightskyblue;
+}
+
+figure {
+    text-align: center;
+    background-color: hotpink;
+    color: black;
+}
+
+div {
+    margin: 0 0.5rem;
+    background-color: greenyellow;
+}
+
+q {
+    font-style: italic;
+}
+
+aside {
+    background-color: lightpink;
+}
+
+footer {
+    background-color: burlywood;
+    color: chocolate;
+}
