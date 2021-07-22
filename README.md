@@ -8,3 +8,5 @@ La tarea tiene que abarcar los siguientes puntos:
 - Al crear la rama, es necesario llamarla dev
 - Una vez que se realizó la publicación, realizar un cambio en el proyecto y realizar otro commit.
 - Mandar el link de su repositorio.
+
+[Link del proyecto](https://arielarmijo.github.io/tarea-escalab/)
