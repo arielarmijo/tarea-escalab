@@ -5,7 +5,7 @@
 
 header {
     height: 75vh;
-    background-image: url("/assets/img/banner.jpeg");
+    background-image: url("../img/banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
