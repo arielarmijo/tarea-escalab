@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 75vh;
+    background-image: url(/assets/img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: #00c2cb;
+    padding: 12px 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: rebeccapurple;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    padding: 15px;
+}
+
+nav > img {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+main > h1, footer > p, .container > div {
+    text-align: center;
+}
+
+.container > div > h2, footer > p, nav > ul > li > a {
+    color: white;
+}
+
+main > h1 {
+    margin: 20px 0;
+}
+
+.container {
+    margin: 45px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.container > div {
+    height: 20vw;
+    width: 25vw;
+    border: 1px solid gray;
+    border-radius: 12px;
+    box-shadow: gray 8px 8px 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+#job-1, #job-5 {
+    background-color: #f493ae;
+}
+
+#job-2, #job-6 {
+    background-color: #66c6c7;
+}
+
+#job-3, #job-4 {
+    background-color: #5270ff;
+}
+
+footer {
+    height: 15vh;
+    background-color: #00c2cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    font-size: 1.4rem;
+}
+
+nav > ul > li > a {
+    font-size: 1.4rem;
+}
+

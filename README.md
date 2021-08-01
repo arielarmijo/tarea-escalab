@@ -1,12 +1,5 @@
 # Escalab
-## Publicación de un proyecto en GitHub
+## Tareas asignadas en el curso desarrollo web
 
-La tarea tiene que abarcar los siguientes puntos:
-
-- Tomar uno de los ejercicios que realizamos en clase o tareas.
-- Publicar el proyecto el un repositorio.
-- Al crear la rama, es necesario llamarla dev
-- Una vez que se realizó la publicación, realizar un cambio en el proyecto y realizar otro commit.
-- Mandar el link de su repositorio.
-
-[Link del proyecto](https://arielarmijo.github.io/tarea-escalab/)
+-[Tarea 1](https://arielarmijo.github.io/tarea-escalab/tarea-01/)
+-[Tarea Clase 5](https://arielarmijo.github.io/tarea-escalab/tarea-03/)
