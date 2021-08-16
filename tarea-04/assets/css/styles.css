@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 500px;
+    background-image: url('../img/color-azul.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    padding: 25px 20px;
+    background-color: #9f2ddd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+nav a, nav i {
+    font-size: 28px;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    transition: .2s border-bottom ease-in-out;
+}
+
+nav a:hover {
+    border-bottom: 5px solid white;
+}
+
+nav i {
+    padding: 5px 2px;
+    transition: .2s all ease-in-out;
+}
+
+nav i:hover {
+    font-style: oblique;
+}
+
+.muted {
+    color: grey;
+}
+
+.desktop {
+    display: none;
+}
+
+section {
+    width: 70%;
+    margin: 30px auto;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+section img {
+    width: 250px;
+    height: auto;
+    order: 1;
+}
+
+.card {
+    padding: 25px 0px;
+}
+
+.card-subtitle, .card-footer {
+    text-transform: uppercase;
+}
+
+.card-title {
+    padding-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-subtitle {
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.card-body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-footer {
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1024px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display:block;
+    }
+
+    header {
+        background-image: url('../img/color-rojo.jpg');
+    }
+
+    nav {
+        background-color: #820000;
+        justify-content: space-between;
+    }
+
+    section {
+        width: 100%;
+        padding: 120px 25px 100px;
+        flex-direction: row;
+    }
+
+    section img {
+        order: 0;
+    }
+
+    .card {
+        padding-left: 50px;
+    }
+
+}
+
+/* FONTS */
+
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.fa-male:before {
+        content: "\f183";
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../webfonts/fa-solid-900.ttf") format("truetype");
+}
+  
