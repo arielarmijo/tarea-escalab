@@ -1,7 +1,7 @@
 # Escalab
 ## Flexbox
 
-El objetivo de esta tarea es poder realizar la página como está establecida en el [PDF](assets/mockup.pdf).
+El objetivo de esta tarea es poder realizar la página como está establecida en el [mockup](assets/mockup.pdf).
 
 Las reglas son las siguientes:
 Utilizar solamente Flexbox para poder posicionar los elementos.
