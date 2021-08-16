@@ -113,16 +113,18 @@ section img {
     }
 
     header {
+        height: 700px;
         background-image: url('../img/color-rojo.jpg');
     }
 
     nav {
+        padding: 25px 35px;
         background-color: #820000;
         justify-content: space-between;
     }
 
     section {
-        width: 100%;
+        width: 95%;
         padding: 120px 25px 100px;
         flex-direction: row;
     }
