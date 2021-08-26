@@ -47,7 +47,7 @@ nav {
 
 .header {
     padding: 2rem 0;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .header-img {
@@ -55,7 +55,6 @@ nav {
 }
 
 .header-body {
-    margin-left: 4rem;
     flex-direction: column;
     justify-content: flex-start;
 }
